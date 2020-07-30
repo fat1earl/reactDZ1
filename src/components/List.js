@@ -1,7 +1,7 @@
 import React from "react";
 import ListItem from "./ListItem";
 
-const items = ["Drink Tea 1", "Make homework 1", "Learn React"];
+const items = ["Clean room", "Go to shop", "Work", "Eat", "Repeat"];
 
 export default () => {
   return (
@@ -9,6 +9,8 @@ export default () => {
       <ListItem label={items[0]} />
       <ListItem label={items[1]} />
       <ListItem label={items[2]} />
+      <ListItem label={items[3]} />
+      <ListItem label={items[4]} />
     </ul>
   );
 };
